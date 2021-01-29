@@ -1,16 +1,16 @@
 @font-face {
     font-family: 'OpenSans';
-    font-weight: bold;
+    font-weight: 'bold';
     src: url('../fonts/OpenSans-Bold.ttf') format('truetype');
 }
 @font-face {
     font-family: 'OpenSans';
-    font-weight: semibold;
+    font-weight: 'semibold';
     src: url('../fonts/OpenSans-SemiBold.ttf') format('truetype');
 }
 @font-face {
     font-family: 'OpenSans';
-    font-weight: regular;
+    font-weight: 'regular';
     src: url('../fonts/OpenSans-Regular.ttf') format('truetype');
 }
 
@@ -19,9 +19,10 @@
     --primary: #193251;
     --primary-light: #7589A2;
     --secondary: #FF5A36;
-    --secondary-light: #FF9C86;
-    
+    --secondary-light: #FF9C86;    
     --lightgrey: #E0E4E8;
+
+    --img-header: url('../images/background_shape_1.svg');
 }
 
 *,
@@ -39,13 +40,13 @@ body, h1, h2, h3, p {
   }
   h1 {
       font-size: 16px;
-      font-weight: bold;
+      font-weight: 'bold';
       text-align: center;
       text-transform: uppercase;
   }
   h2 {
     font-size: 14px;
-    font-weight: semibold;
+    font-weight: 'semibold';
 }
 ul[class],
 ol[class] {
@@ -54,5 +55,5 @@ ol[class] {
   margin: 0;
 }
 main {
-    margin:1.875rem;
+    margin: 89px 1.875rem 0 1.875rem;
 }

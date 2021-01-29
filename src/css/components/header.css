@@ -1,0 +1,8 @@
+header {
+    background-image: var(--img-header);
+    height: 58.99px;
+    padding: 17.41px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}

@@ -1,6 +1,14 @@
+.team {
+    margin-top: 30px;
+}
 .team__container {
     text-align: center;
     margin-top: 10px;
+    border: 0.063rem solid var(--lightgrey);
+    border-radius: 6px;
+    font-size: 16px;
+    color: #7589A2;
+    font-weight: 'semibold';
 }
 
 .team__list > li {
