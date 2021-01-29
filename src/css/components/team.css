@@ -1,7 +1,9 @@
 .team__container {
     text-align: center;
-    border: 0.063rem solid var(--lightgrey);
+    margin-top: 10px;
 }
-.team__list {
-    border: black solid 4px;
+
+.team__list > li {
+    border: 0.063rem solid var(--lightgrey);
+    padding: 18px;
 }
