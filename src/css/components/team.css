@@ -1,0 +1,7 @@
+.team__container {
+    text-align: center;
+    border: 0.063rem solid var(--lightgrey);
+}
+.team__list {
+    border: black solid 4px;
+}

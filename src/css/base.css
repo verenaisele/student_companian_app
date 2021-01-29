@@ -20,6 +20,8 @@
     --primary-light: #7589A2;
     --secondary: #FF5A36;
     --secondary-light: #FF9C86;
+    
+    --lightgrey: #E0E4E8;
 }
 
 *,
@@ -30,19 +32,27 @@
 
 body {
     font-family: 'OpenSans';
+    color: var(--primary);
 }
 body, h1, h2, h3, p {
     margin: 0;
   }
   h1 {
-      color: var (--primary);
-      font-size: 16;
+      font-size: 16px;
       font-weight: bold;
       text-align: center;
       text-transform: uppercase;
   }
   h2 {
-    color: var (--primary);
-    font-size: 14;
+    font-size: 14px;
     font-weight: semibold;
+}
+ul[class],
+ol[class] {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+main {
+    margin:1.875rem;
 }
