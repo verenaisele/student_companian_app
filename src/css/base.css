@@ -48,6 +48,12 @@ body, h1, h2, h3, p {
     font-size: 14px;
     font-weight: 'semibold';
 }
+h3 {
+    font-size: 12px;
+    font-weight: 'regular';
+    color: var(--primary-light);
+}
+
 ul[class],
 ol[class] {
   list-style: none;

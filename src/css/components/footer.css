@@ -8,7 +8,7 @@ footer {
     margin: 20px;
 }
 
-nav>img {
+nav>a>img {
     opacity: 1;
 }
 nav {
