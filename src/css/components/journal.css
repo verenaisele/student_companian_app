@@ -11,6 +11,42 @@
     margin-bottom: 10px;
 }
 
+.journal__star {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-right: 90px;
+}
+
+.journal__star--act {
+    background-image: var(--img-star-act);
+    height: 22.63px;
+    width: 24.82px;
+}
+.journal__star--deact {
+    background-image: var(--img-star-deact);
+    height: 22.63px;
+    width: 24.82px;
+}
+
+.journal__rectangle {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    xpadding-right: 21px;
+}
+
+.journal__rect--act {
+    background-image: var(--img-rect-act);
+    height: 22px;
+    width: 22px;
+}
+.journal__rect--deact {
+    background-image: var(--img-rect-deact);
+    height: 22px;
+    width: 22px;
+}
+
 .journal__motto--zitat {
     font-size: 16px;
     font-weight: 'semibold';
@@ -18,10 +54,4 @@
 .journal__notes--text {
     font-size: 14px;
     font-weight: 'regular';
-}
-
-.journal__rating .journal__star {
-    background-image: var(--img-star-act);
-    height: 23.63px;
-    width: 24.82px;
 }
