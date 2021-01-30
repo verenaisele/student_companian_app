@@ -16,13 +16,24 @@
 
 
 :root {
-    --primary: #193251;
+    --primary: rgb(20, 37, 64);
     --primary-light: #7589A2;
     --secondary: #FF5A36;
     --secondary-light: #FF9C86;    
     --lightgrey: #E0E4E8;
 
     --img-header: url('../images/background_shape_1.svg');
+
+    /*Stern aktiv*/
+    --img-star-act: url('../images/Star.svg');
+    /*Stern deaktiviert*/
+    --img-star-deact: url('../images/Star Copy 8.svg');
+
+    /*Quadrat aktiv*/
+    --img-rect-act: url('../images/Rectangle Copy 3.svg');
+    /*Quadrat deaktiviert*/
+    --img-rect-deact: url('../images/Rectangle Copy 14.svg');
+
 }
 
 *,
