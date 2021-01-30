@@ -46,8 +46,27 @@ body, h1, h2, h3, p {
   }
   h2 {
     font-size: 14px;
-    font-weight: 'semibold';
+    font-weight: 'semibold'; 
 }
+
+.motto {
+margin-top: 56px;
+font-family: 'OpenSans';
+font-weight: 'semibold'; 
+font-size: 14px;
+
+
+}
+
+.notes {
+margin-top: 92px; 
+font-family: 'OpenSans';
+font-weight: 'semibold'; 
+font-size: 14px;
+
+}
+
+
 h3 {
     font-size: 12px;
     font-weight: 'regular';
