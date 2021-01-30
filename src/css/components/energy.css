@@ -1,3 +1,12 @@
+.energy h2 {
+    margin-bottom: 10px;
+}
+
+.energy__buttons h2 {
+    margin-bottom: 10px;
+    margin-top: 33px;
+}
+
 .energy__graph {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -26,6 +35,8 @@
   .energy__p {
         color: var(--primary-light);
         font-size: 12px;
+        align-self: flex-end;
+        -ms-layout-grid-line: 1px black solid;
     }
   
   .energy__p100 { 
@@ -116,6 +127,94 @@
     height: 175px;
 }
 
-  .gr-75 {
+.gr-90 {
+    height: 157px;
+}
+
+.gr-88 {
+    height: 154px;
+}
+
+.gr-85 {
+    height: 148px;
+}
+
+.gr-75 {
     height: 131px;
+}
+
+.gr-62 {
+    height: 109px;
+}
+
+.gr-54 {
+    height: 95px;
+}
+
+.gr-41 {
+    height: 72px;
+}
+
+.gr-27 {
+    height: 47px;
+}
+
+.gr-19 {
+    height: 33px;
+}
+
+.button {
+    width: 100%;
+    height: 48px;
+    font-size: 16px;
+    font-family: "OpenSans";
+    font-weight: "bold";
+    border-radius: 5px;
+    margin-bottom: 10px;
+    border: none;
+    letter-spacing: 1px;
+}
+
+.button100 {
+    background-color: var(--secondary);
+    color: #FFFFFF;
+}
+
+.button75 {
+    background-color: var(--secondary-light);
+    color: #FFFFFF;
+}
+
+.button50 {
+    background-color: #FFBDAF;
+    color: #FF5A36;
+}
+
+.button25 {
+    background-color: #FFDED7;
+    color: #FF5A36;
+}
+
+.energy__otheryou {
+    display: flex;
+    font-size: 12px;
+    justify-content: flex-end;
+    margin: 10px;
+}
+
+.energy__other {
+    border: none;
+    background-color: var(--primary);
+    color: #FFFFFF;
+    border-radius: 3px;
+    margin-right: 10px;
+    padding: 2px 8.5px;
+}
+
+.energy__you {
+    border: none;
+    background-color: #FFDED7;
+    color: var(--secondary);
+    border-radius: 3px;
+    padding: 2px 8.5px;
 }
