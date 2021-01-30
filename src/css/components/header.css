@@ -7,3 +7,14 @@ header {
     top: 0;
     z-index: 100;
 }
+.header_mit_subline {
+    background-image: var(--img-header);
+    background-size: cover;
+    height: 81px;
+    padding: 20px auto 25px auto;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+    margin-bottom: 34px;
+}

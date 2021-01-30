@@ -75,3 +75,14 @@ ol[class] {
 main {
     margin: 89px 1.875rem 79px 1.875rem;
 }
+.main_für_header_mit_subline {
+    margin: 115px 1.875rem 86px 1.875rem;
+}
+.journal__header {
+    font-size: 14px;
+    font-weight: 'semibold';
+    
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    
+}
