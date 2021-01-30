@@ -9,9 +9,19 @@
     font-size: 16px;
     color: #7589A2;
     font-weight: 'semibold';
+    position: relative;
 }
 
 .team__list > li {
     border: 0.063rem solid var(--lightgrey);
     padding: 18px;
+}
+
+.team__plus {
+    background-image: var(--img-plus);
+    height: 20.33px;
+    width: 20.33px;
+    position: absolute;
+    top: 50px;
+    right: 50%;
 }
