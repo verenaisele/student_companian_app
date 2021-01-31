@@ -1,19 +1,25 @@
 footer {
-    border: white solid 1px;
     border-radius: 10px;
-    box-shadow: 0 2px 6px var(--primary);
-    opacity: 0.6;
+    box-shadow: 0 2px 11px rgba(20, 37, 64, 0.2);
 
     height: 44px;
-    margin: 20px;
-}
+    /*margin: 20px;*/
+    margin: auto 20px;
 
-nav>a>img {
-    opacity: 1;
+    position: fixed;
+    width: 92%;
+    bottom: 20px;
+
+    z-index: 100;
+    background-color: white;
 }
 nav {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     padding: 11px;
+}
+xnav > a {
+    stroke:rgb(98, 117, 145);
+    
 }
