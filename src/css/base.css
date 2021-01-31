@@ -49,6 +49,28 @@ body, h1, h2, h3, p {
     font-weight: 'semibold'; 
 }
 
+.headline_today {
+    margin-top: 30.42px; 
+    font-family: 'OpenSans';
+    font-weight: 'semibold'; 
+    font-size: 14px;
+}
+
+.headline_rating {
+    margin-top: 30px;
+    font-family: 'OpenSans';
+    font-weight: 'semibold'; 
+    font-size: 14px;
+
+}
+
+.headline_comprehension {
+    margin-top: 70px;
+    font-family: 'OpenSans';
+    font-weight: 'semibold'; 
+    font-size: 14px;
+}
+
 .motto {
 margin-top: 56px;
 font-family: 'OpenSans';
