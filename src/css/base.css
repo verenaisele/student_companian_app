@@ -16,13 +16,25 @@
 
 
 :root {
-    --primary: #193251;
+    --primary: rgb(20, 37, 64);
     --primary-light: #7589A2;
     --secondary: #FF5A36;
     --secondary-light: #FF9C86;    
     --lightgrey: #E0E4E8;
 
     --img-header: url('../images/background_shape_1.svg');
+
+    /*Stern aktiv*/
+    --img-star-act: url('../images/Star.svg');
+    /*Stern deaktiviert*/
+    --img-star-deact: url('../images/Star Copy 8.svg');
+
+    /*Quadrat aktiv*/
+    --img-rect-act: url('../images/Rectangle Copy 3.svg');
+    /*Quadrat deaktiviert*/
+    --img-rect-deact: url('../images/Rectangle Copy 14.svg');
+
+    --img-plus: url('../images/Plus.svg');
 }
 
 *,
@@ -46,8 +58,49 @@ body, h1, h2, h3, p {
   }
   h2 {
     font-size: 14px;
-    font-weight: 'semibold';
+    font-weight: 'semibold'; 
 }
+
+.headline_today {
+    margin-top: 30.42px; 
+    font-family: 'OpenSans';
+    font-weight: 'semibold'; 
+    font-size: 14px;
+}
+
+.headline_rating {
+    margin-top: 30px;
+    font-family: 'OpenSans';
+    font-weight: 'semibold'; 
+    font-size: 14px;
+
+}
+
+.headline_comprehension {
+    margin-top: 70px;
+    font-family: 'OpenSans';
+    font-weight: 'semibold'; 
+    font-size: 14px;
+}
+
+.motto {
+margin-top: 56px;
+font-family: 'OpenSans';
+font-weight: 'semibold'; 
+font-size: 14px;
+
+
+}
+
+.notes {
+margin-top: 92px; 
+font-family: 'OpenSans';
+font-weight: 'semibold'; 
+font-size: 14px;
+
+}
+
+
 h3 {
     font-size: 12px;
     font-weight: 'regular';
@@ -61,5 +114,16 @@ ol[class] {
   margin: 0;
 }
 main {
-    margin: 89px 1.875rem 0 1.875rem;
+    margin: 89px 1.875rem 79px 1.875rem;
+}
+.main_für_header_mit_subline {
+    margin: 115px 1.875rem 86px 1.875rem;
+}
+.journal__header {
+    font-size: 14px;
+    font-weight: 'semibold';
+    
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    
 }

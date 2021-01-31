@@ -1,12 +1,67 @@
+.journal {
+    margin-top: 30px;
+}
+.journal__button {
+    background-color: var(--secondary);
+    color: #fff;
+    width: 200px;
+    height: 48px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 'bold';
+    box-shadow: 0 4px 10px rgba(251, 66, 42, 0.4);
+    border-style: none;
+    xmargin: 0 87.5px 0 87.5px;
+}
+
+.button__container{
+text-align: center;
+}
+
 .journal__container {
-    border: white solid 1px;
     border-radius: 6px;
-    box-shadow: 0 2px 6px var(--primary);
-    opacity: 0.6;
+    box-shadow: 0 2px 11px rgba(20, 37, 64, 0.2);
     margin-top: 10px;
     padding: 20px;
 }
+.journal__subheader {
+    margin-bottom: 10px;
+}
 
+.journal__star {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-right: 90px;
+}
+
+.journal__star--act {
+    background-image: var(--img-star-act);
+    height: 22.63px;
+    width: 24.82px;
+}
+.journal__star--deact {
+    background-image: var(--img-star-deact);
+    height: 22.63px;
+    width: 24.82px;
+}
+
+.journal__rectangle {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.journal__rect--act {
+    background-image: var(--img-rect-act);
+    height: 22px;
+    width: 22px;
+}
+.journal__rect--deact {
+    background-image: var(--img-rect-deact);
+    height: 22px;
+    width: 22px;
+}
 
 .journal__motto--zitat {
     font-size: 16px;
@@ -16,6 +71,88 @@
     font-size: 14px;
     font-weight: 'regular';
 }
-.journal {
+
+
+.today_rating {
     margin-top: 30px;
+
+}
+
+.star{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.star * {
+    border: var(--primary-light); 
+    margin-top: 14px; 
+    width: 35,75px;
+    height: 34,46px;
+    
+}
+
+.retancle {
+    display: flex;
+    justify-content: space-between;
+}
+
+.retancle * {
+    margin-top: 14px;
+    width: 26px;
+    height: 26px; 
+    border-radius: 4.8px;
+}
+
+.today_comprehension {
+    margin-top: 70px;
+
+}
+
+
+.today_motto {
+    margin-top: 10px;
+    border-radius: 4px;
+    border: 0.063rem solid var(--lightgrey);
+    padding: 18px;
+    width: 315px;
+    height: 62px;
+}
+
+.today_notes {
+    margin-top: 10px;
+    border-radius: 4px;
+    border: 0.063rem solid var(--lightgrey);
+    padding: 18px;
+    width: 315px;
+    height: 124px;
+}
+
+
+.button_cancel {
+    margin-top: 164px; 
+    border-radius: 5px;
+    margin-top: 30px;
+    width: 152px;
+    height: 48px;
+    background-color: #ffffff;
+    color: var(--primary);
+    font-family: 'OpenSans';
+    font-weight: 'semibold'; 
+    font-size: 16px;
+    color: var(--primary)
+
+}
+
+
+.button_save {
+    margin-top: 164px;
+    border-radius:5px;
+    margin-top: 30px;
+    width: 152px;
+    height: 48px;
+    background-color: #FF5A36;
+    color: #ffffff; 
+    font-family: 'OpenSans';
+    font-weight: 'bold'; 
+    font-size: 16px;
 }
