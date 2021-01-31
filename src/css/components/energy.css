@@ -1,0 +1,260 @@
+.energy h2 {
+    margin-bottom: 10px;
+}
+
+.energy__buttons h2 {
+    margin-bottom: 10px;
+    margin-top: 33px;
+}
+
+.energy__graph {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    height: 208px;
+    width: 100%;
+    grid-template-areas:
+      "p100 gr1000 gr1530 gr1615 gr1825 gr1900"
+      "p75 gr1000 gr1530 gr1615 gr1825 gr1900"
+      "p50 gr1000 gr1530 gr1615 gr1825 gr1900"
+      "p25 gr1000 gr1530 gr1615 gr1825 gr1900"
+      "p0 gr1000 gr1530 gr1615 gr1825 gr1900"
+      ". bottom bottom bottom bottom bottom";
+  }
+  
+  .energy__bottom { 
+      grid-area: bottom; 
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      align-content: space-between;
+    }
+
+  .energy__p {
+        color: var(--primary-light);
+        font-size: 12px;
+        align-self: flex-end;
+        -ms-layout-grid-line: 1px black solid;
+    }
+
+    .energy__graphbg1 {
+        grid-row-start: 2;
+        grid-row-end: 3;
+        grid-column-start: 2;
+        grid-column-end: 7;
+        border-top: 1px var(--lightgrey) solid;
+    }
+
+    .energy__graphbg2 {
+        grid-row-start: 3;
+        grid-row-end: 4;
+        grid-column-start: 2;
+        grid-column-end: 7;
+        border-top: 1px var(--lightgrey) solid;
+    }
+
+    .energy__graphbg3 {
+        grid-row-start: 4;
+        grid-row-end: 5;
+        grid-column-start: 2;
+        grid-column-end: 7;
+        border-top: 1px var(--lightgrey) solid;
+    }
+
+    .energy__graphbg4 {
+        grid-row-start: 5;
+        grid-row-end: 6;
+        grid-column-start: 2;
+        grid-column-end: 7;
+        border-top: 1px var(--lightgrey) solid;
+    }
+
+    .energy__graphbg5 {
+        grid-row-start: 6;
+        grid-row-end: 7;
+        grid-column-start: 2;
+        grid-column-end: 7;
+        border-top: 1px var(--lightgrey) solid;
+    }
+  
+  .energy__p100 { 
+      grid-area: p100; 
+      
+    }
+  
+  .energy__p75 { 
+      grid-area: p75; 
+      
+    }
+  
+  .energy__p50 { 
+      grid-area: p50; 
+    }
+  
+  .energy__p25 { 
+      grid-area: p25; 
+    }
+  
+  .energy__p0 { 
+      grid-area: p0; 
+    }
+  
+  .energy__gr1000 { 
+      display: flex;
+      grid-area: gr1000;
+      align-self: end;
+      justify-self: center;
+      align-items: flex-end;
+      z-index: 10;
+     }
+  
+  .energy__gr1530 { 
+    display: flex;
+    grid-area: gr1530;
+    align-self: end;
+    align-items: flex-end;
+    justify-self: center;
+    }
+  
+  .energy__gr1615 { 
+    display: flex;
+    grid-area: gr1615;
+    align-self: end;
+    align-items: flex-end;
+    justify-self: center;
+     }
+  
+  .energy__gr1825 { 
+    display: flex;
+    grid-area: gr1825;
+    align-self: end;
+    align-items: flex-end;
+    justify-self: center;
+     }
+  
+  .energy__gr1900 { 
+    display: flex;
+    grid-area: gr1900;
+    align-self: end;
+    align-items: flex-end;
+    justify-self: center;
+     }
+
+  .energy__timeline {
+      float: left;
+      width: 31px;
+  }
+  
+  .energy__grsecondary {
+      background-color: var(--secondary);
+      border-top-left-radius: 8px;
+      border-top-right-radius: 8px;
+      height: 175px;
+      width: 12px;
+  }
+
+  .energy__grprimary {
+    background-color: var(--primary);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    height: 175px;
+    width: 12px;
+}
+
+.gr-100 {
+    height: 175px;
+}
+
+.gr-90 {
+    height: 157px;
+}
+
+.gr-88 {
+    height: 154px;
+}
+
+.gr-85 {
+    height: 148px;
+}
+
+.gr-75 {
+    height: 131px;
+}
+
+.gr-62 {
+    height: 109px;
+}
+
+.gr-54 {
+    height: 95px;
+}
+
+.gr-41 {
+    height: 72px;
+}
+
+.gr-27 {
+    height: 47px;
+}
+
+.gr-19 {
+    height: 33px;
+}
+
+.button {
+    width: 100%;
+    height: 48px;
+    font-size: 16px;
+    font-family: "OpenSans";
+    font-weight: "bold";
+    border-radius: 5px;
+    margin-bottom: 10px;
+    border: none;
+    letter-spacing: 1px;
+}
+
+.button100 {
+    background-color: var(--secondary);
+    color: #FFFFFF;
+}
+
+.button75 {
+    background-color: var(--secondary-light);
+    color: #FFFFFF;
+}
+
+.button50 {
+    background-color: #FFBDAF;
+    color: #FF5A36;
+}
+
+.button25 {
+    background-color: #FFDED7;
+    color: #FF5A36;
+}
+
+.energy__otheryou {
+    display: flex;
+    font-size: 12px;
+    justify-content: flex-end;
+    margin: 10px;
+}
+
+.energy__other {
+    border: none;
+    background-color: var(--primary);
+    color: #FFFFFF;
+    border-radius: 3px;
+    margin-right: 10px;
+    padding: 2px 8.5px;
+}
+
+.energy__you {
+    border: none;
+    background-color: #FFDED7;
+    color: var(--secondary);
+    border-radius: 3px;
+    padding: 2px 8.5px;
+}
