@@ -77,14 +77,13 @@ body, h1, h2, h3, p {
 }
 
 .headline_comprehension {
-    margin-top: 70px;
+    xmargin-top: 70px;
     font-family: 'OpenSans';
     font-weight: 'semibold'; 
     font-size: 14px;
 }
 
 .motto {
-margin-top: 56px;
 font-family: 'OpenSans';
 font-weight: 'semibold'; 
 font-size: 14px;
@@ -93,7 +92,6 @@ font-size: 14px;
 }
 
 .notes {
-margin-top: 92px; 
 font-family: 'OpenSans';
 font-weight: 'semibold'; 
 font-size: 14px;
