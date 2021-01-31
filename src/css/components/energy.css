@@ -38,6 +38,46 @@
         align-self: flex-end;
         -ms-layout-grid-line: 1px black solid;
     }
+
+    .energy__graphbg1 {
+        grid-row-start: 2;
+        grid-row-end: 3;
+        grid-column-start: 2;
+        grid-column-end: 7;
+        border-top: 1px var(--lightgrey) solid;
+    }
+
+    .energy__graphbg2 {
+        grid-row-start: 3;
+        grid-row-end: 4;
+        grid-column-start: 2;
+        grid-column-end: 7;
+        border-top: 1px var(--lightgrey) solid;
+    }
+
+    .energy__graphbg3 {
+        grid-row-start: 4;
+        grid-row-end: 5;
+        grid-column-start: 2;
+        grid-column-end: 7;
+        border-top: 1px var(--lightgrey) solid;
+    }
+
+    .energy__graphbg4 {
+        grid-row-start: 5;
+        grid-row-end: 6;
+        grid-column-start: 2;
+        grid-column-end: 7;
+        border-top: 1px var(--lightgrey) solid;
+    }
+
+    .energy__graphbg5 {
+        grid-row-start: 6;
+        grid-row-end: 7;
+        grid-column-start: 2;
+        grid-column-end: 7;
+        border-top: 1px var(--lightgrey) solid;
+    }
   
   .energy__p100 { 
       grid-area: p100; 
@@ -64,10 +104,10 @@
   .energy__gr1000 { 
       display: flex;
       grid-area: gr1000;
-      border-top: 1px var(--primary-light) solid;
       align-self: end;
       justify-self: center;
       align-items: flex-end;
+      z-index: 10;
      }
   
   .energy__gr1530 { 
