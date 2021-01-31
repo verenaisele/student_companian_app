@@ -58,8 +58,49 @@ body, h1, h2, h3, p {
   }
   h2 {
     font-size: 14px;
-    font-weight: 'semibold';
+    font-weight: 'semibold'; 
 }
+
+.headline_today {
+    margin-top: 30.42px; 
+    font-family: 'OpenSans';
+    font-weight: 'semibold'; 
+    font-size: 14px;
+}
+
+.headline_rating {
+    margin-top: 30px;
+    font-family: 'OpenSans';
+    font-weight: 'semibold'; 
+    font-size: 14px;
+
+}
+
+.headline_comprehension {
+    margin-top: 70px;
+    font-family: 'OpenSans';
+    font-weight: 'semibold'; 
+    font-size: 14px;
+}
+
+.motto {
+margin-top: 56px;
+font-family: 'OpenSans';
+font-weight: 'semibold'; 
+font-size: 14px;
+
+
+}
+
+.notes {
+margin-top: 92px; 
+font-family: 'OpenSans';
+font-weight: 'semibold'; 
+font-size: 14px;
+
+}
+
+
 h3 {
     font-size: 12px;
     font-weight: 'regular';
