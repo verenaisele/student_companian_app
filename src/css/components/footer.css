@@ -19,3 +19,9 @@ nav {
     align-items: center;
     padding: 11px;
 }
+nav > a > img {
+    opacity: 60%;
+}
+img.active {
+    opacity: 100%;
+}
