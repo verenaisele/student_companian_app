@@ -95,13 +95,6 @@ text-align: center;
     justify-content: space-between;
 }
 
-.retancle * {
-    margin-top: 14px;
-    width: 26px;
-    height: 26px; 
-    border-radius: 4.8px;
-}
-
 
 .today_motto {
     margin-top: 10px;
