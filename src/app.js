@@ -26,7 +26,7 @@ teamlist1.innerText = codeBuddies[0].buddy1
 const teamlist2 = document.querySelector('#teamlist2')
 teamlist2.innerText = codeBuddies[0].buddy2
 
-//Team Seite
+//Team Seite - Dashboard
 const teamMember = [["André Willrich", "Miriam Brauer", "Sophie Willrich", "Verena Isele", "Emmanuel Losch"], ["Sophie Ketterer", "Mickey Mouse", "Marlina Ketterer","Verena Losch", "André Isele"]]
 
 
@@ -42,4 +42,15 @@ ulTeamMembers.innerHTML += `<li>${teamMembername}</li>`
 //li.innerText = teamMembername
 //ulTeamMembers.appendChild(li)
      })
-                            
+
+const main = document.querySelector('main')
+//Team Seite
+teamMember.forEach(teamMemberList => {
+    main.innerHTML += `<section class="team">
+                                <h2>Team 1</h2>
+                                <div class="team__container">
+                                    <ul id="teamMembers" class="team__list">
+                                    </ul>
+                                </div>
+                                </section>`
+})
