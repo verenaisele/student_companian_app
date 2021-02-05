@@ -1,8 +1,8 @@
-//Team Seite - Dashboard
+//Team Seite
 const teamMember = [["André Willrich", "Miriam Brauer", "Sophie Willrich", "Verena Isele", "Emmanuel Losch"], ["Sophie Ketterer", "Mickey Mouse", "Marlina Ketterer","Verena Losch", "André Isele"]]
 
 const main = document.querySelector('main')
-
+let i = 1
 //Team Seite
 teamMember.forEach(teamMemberList => {
     const section = document.createElement('section')
@@ -10,7 +10,8 @@ teamMember.forEach(teamMemberList => {
     section.classList.add('team')
     const h2 = document.createElement('h2')
     section.appendChild(h2)
-    h2.innerText = "Team 1"
+    h2.innerText = "Team " + i
+    i++
     const div = document.createElement('div')
     section.appendChild(div)
     div.classList.add('team__container')

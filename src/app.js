@@ -42,15 +42,3 @@ ulTeamMembers.innerHTML += `<li>${teamMembername}</li>`
 //li.innerText = teamMembername
 //ulTeamMembers.appendChild(li)
      })
-
-const main = document.querySelector('main')
-//Team Seite
-teamMember.forEach(teamMemberList => {
-    main.innerHTML += `<section class="team">
-                                <h2>Team 1</h2>
-                                <div class="team__container">
-                                    <ul id="teamMembers" class="team__list">
-                                    </ul>
-                                </div>
-                                </section>`
-})
