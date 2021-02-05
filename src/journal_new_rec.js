@@ -1,6 +1,6 @@
 //Journal_new Rectangle ersetzen
 
-const rectangle = document.querySelector('.rectangle')
+const rectangle = document.querySelector('.retancle')
 
 const getrect1container = document.createElement('div')
 getrect1container.classList.add('retancle1')
