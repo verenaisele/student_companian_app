@@ -1,84 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Journal</title>
     <link rel="stylesheet" href="css/styles.css">
+    <script src="journal.js" defer></script>
+
 </head>
+
 <body>
     <header>
         <h1>Journal</h1>
     </header>
 
-    <main>
-     <div class="button__container">
-        <a href="journal_new.html">
-         <button class="journal__button">Rate today
+    <main class="main__Journal">
+        <div class="button__container">
+            <a href="journal_new.html">
+                <button class="journal__button">Rate today
 
-            <svg width="13.33px" height="12.67px" viewBox="0 0 25 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                <title>Star</title>
-                <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                    <g id="Star" fill="#fff">
-                        <path d="M8.23458443,7.2288 L0.825542795,8.30177333 L0.715980417,8.32378638 C0.00767592863,8.50741356 -0.252463118,9.41029168 0.291855842,9.93923898 L5.65288072,15.14976 L4.3876206,22.5059207 L4.37507497,22.6116336 C4.32751461,23.3425174 5.11048682,23.8713631 5.78483118,23.5179301 L12.4119178,20.0448 L19.0390043,23.5179301 L19.1359768,23.5624921 C19.8185371,23.833441 20.5650032,23.2545037 20.4362149,22.5059207 L19.1699918,15.14976 L24.5319797,9.93923898 L24.6076386,9.85722905 C25.0724025,9.29362162 24.750523,8.41074247 23.9982927,8.30177333 L16.5882881,7.2288 L13.2754414,0.535136917 C12.9222134,-0.178378972 11.9016221,-0.178378972 11.5483941,0.535136917 L8.23458443,7.2288 Z" id="Path"></path>
-                    </g>
-                </g>
-            </svg>
-         </button>
-        </a>
+                    <svg width="13.33px" height="12.67px" viewBox="0 0 25 24" version="1.1"
+                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <title>Star</title>
+                        <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                            <g id="Star" fill="#fff">
+                                <path
+                                    d="M8.23458443,7.2288 L0.825542795,8.30177333 L0.715980417,8.32378638 C0.00767592863,8.50741356 -0.252463118,9.41029168 0.291855842,9.93923898 L5.65288072,15.14976 L4.3876206,22.5059207 L4.37507497,22.6116336 C4.32751461,23.3425174 5.11048682,23.8713631 5.78483118,23.5179301 L12.4119178,20.0448 L19.0390043,23.5179301 L19.1359768,23.5624921 C19.8185371,23.833441 20.5650032,23.2545037 20.4362149,22.5059207 L19.1699918,15.14976 L24.5319797,9.93923898 L24.6076386,9.85722905 C25.0724025,9.29362162 24.750523,8.41074247 23.9982927,8.30177333 L16.5882881,7.2288 L13.2754414,0.535136917 C12.9222134,-0.178378972 11.9016221,-0.178378972 11.5483941,0.535136917 L8.23458443,7.2288 Z"
+                                    id="Path"></path>
+                            </g>
+                        </g>
+                    </svg>
+                </button>
+            </a>
 
-    </div>
+        </div>
 
-        <section class="journal">
-           
-        <div class="journal__container">
-            <h2 class="journal__header">Yesterdays Journal:</h2>
+        <!--<section class="journal">
 
-            <div class="journal__rating mg-bt">
-                <h3 class="journal__subheader">Rating:</h3>
-                <div class="journal__star">
-                    <div class="journal__star--act"></div>
-                    <div class="journal__star--act"></div>
-                    <div class="journal__star--act"></div>
-                    <div class="journal__star--deact"></div>
-                    <div class="journal__star--deact"></div>
-                </div>
-            </div>
-
-            <div class="journal__comprehension mg-bt">
-                <h3 class="journal__subheader">Comprehension:</h3>
-                <div class="journal__rectangle">
-                    <div class="journal__rect--act"></div>
-                    <div class="journal__rect--act"></div>
-                    <div class="journal__rect--act"></div>
-                    <div class="journal__rect--act"></div>
-                    <div class="journal__rect--act"></div>
-                    <div class="journal__rect--act"></div>
-                    <div class="journal__rect--act"></div>
-                    <div class="journal__rect--act"></div>
-                    <div class="journal__rect--deact"></div>
-                    <div class="journal__rect--deact"></div>
-                    <div class="journal__rect--deact"></div>
-                </div>
-            </div>
-
-                <div class="journal__motto mg-bt">
-                <h3 class="journal__subheader">Motto:</h3>
-                <p class="journal__motto--zitat">„Thats life in the city“</p>
-            </div>
-            <div class="journal__notes">
-                <h3 class="journal__subheader">Notes:</h3>
-            <p class="journal__notes--text">Si sine causa? quae fuerit causa, mox videro; interea hoc tenebo, si mihi. Et quidem se repellere, idque instituit docere sic omne animal, simul atque.</p>
-            </div>
-
-        </div> <!--/journal container-->
-        </section>
-
-        <section class="journal">
-           
             <div class="journal__container">
-                <h2 class="journal__header">12.07.2020:</h2>
-    
+                <h2 class="journal__header">Yesterdays Journal:</h2>
+
                 <div class="journal__rating mg-bt">
                     <h3 class="journal__subheader">Rating:</h3>
                     <div class="journal__star">
@@ -89,7 +51,7 @@
                         <div class="journal__star--deact"></div>
                     </div>
                 </div>
-    
+
                 <div class="journal__comprehension mg-bt">
                     <h3 class="journal__subheader">Comprehension:</h3>
                     <div class="journal__rectangle">
@@ -106,32 +68,81 @@
                         <div class="journal__rect--deact"></div>
                     </div>
                 </div>
-    
-                    <div class="journal__motto mg-bt">
+
+                <div class="journal__motto mg-bt">
+                    <h3 class="journal__subheader">Motto:</h3>
+                    <p class="journal__motto--zitat">„Thats life in the city“</p>
+                </div>
+                <div class="journal__notes">
+                    <h3 class="journal__subheader">Notes:</h3>
+                    <p class="journal__notes--text">Si sine causa? quae fuerit causa, mox videro; interea hoc tenebo, si
+                        mihi. Et quidem se repellere, idque instituit docere sic omne animal, simul atque.</p>
+                </div>
+
+            </div>
+            <!--/journal container-->
+        <!--  </section>
+
+        <section class="journal">
+
+            <div class="journal__container">
+                <h2 class="journal__header">12.07.2020:</h2>
+
+                <div class="journal__rating mg-bt">
+                    <h3 class="journal__subheader">Rating:</h3>
+                    <div class="journal__star">
+                        <div class="journal__star--act"></div>
+                        <div class="journal__star--act"></div>
+                        <div class="journal__star--act"></div>
+                        <div class="journal__star--deact"></div>
+                        <div class="journal__star--deact"></div>
+                    </div>
+                </div>
+
+                <div class="journal__comprehension mg-bt">
+                    <h3 class="journal__subheader">Comprehension:</h3>
+                    <div class="journal__rectangle">
+                        <div class="journal__rect--act"></div>
+                        <div class="journal__rect--act"></div>
+                        <div class="journal__rect--act"></div>
+                        <div class="journal__rect--act"></div>
+                        <div class="journal__rect--act"></div>
+                        <div class="journal__rect--act"></div>
+                        <div class="journal__rect--act"></div>
+                        <div class="journal__rect--act"></div>
+                        <div class="journal__rect--deact"></div>
+                        <div class="journal__rect--deact"></div>
+                        <div class="journal__rect--deact"></div>
+                    </div>
+                </div>
+
+                <div class="journal__motto mg-bt">
                     <h3 class="journal__subheader">Motto:</h3>
                     <p class="journal__motto--zitat">„One step at a time“</p>
                 </div>
                 <div class="journal__notes">
                     <h3 class="journal__subheader">Notes:</h3>
-                <p class="journal__notes--text">Torquatos nostros quos dolores suscipiantur maiorum</p>
+                    <p class="journal__notes--text">Torquatos nostros quos dolores suscipiantur maiorum</p>
                 </div>
-    
-            </div> <!--/journal container-->
-            </section>
 
-    </main>
+            </div>
+            <!--/journal container-->
+        <!-- </section>
 
-<footer>
-       
-    <nav>
-        <a href="index.html"><img src="images/DashboardIcon.svg" alt=""></a>
-        <a href="buddy.html"><img src="images/BuddyIcon.svg" alt=""></a>
-        <a href="team.html"><img src="images/TeamIcon.svg" alt=""></a>
-        <a href="energy.html"><img src="images/EnergyIcon.svg" alt=""></a>
-        <a href="journal.html"><img src="images/JournalIcon.svg" alt="" class="active"></a>
-    </nav>
-    
-</footer>
+    </main> -->
+
+        <footer>
+
+            <nav>
+                <a href="index.html"><img src="images/DashboardIcon.svg" alt=""></a>
+                <a href="buddy.html"><img src="images/BuddyIcon.svg" alt=""></a>
+                <a href="team.html"><img src="images/TeamIcon.svg" alt=""></a>
+                <a href="energy.html"><img src="images/EnergyIcon.svg" alt=""></a>
+                <a href="journal.html"><img src="images/JournalIcon.svg" alt="" class="active"></a>
+            </nav>
+
+        </footer>
 
 </body>
+
 </html>
