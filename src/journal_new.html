@@ -1,66 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Journal</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/styles.css" />
     <script src="journal_new.js" defer></script>
     <script src="journal_new_rec.js" defer></script>
-</head>
-<body>
+    <script src="button.js" defer></script>
+  </head>
+  <body>
     <header>
-        <h1>Journal</h1>
+      <h1>Journal</h1>
     </header>
 
     <main>
-        <section class="today">
-            <h2 class="headline_today">Today, 01.02.2021</h2>
-            
-            <div class="today_rating mg-bt">
-                <h2 class="headline_rating">Rating:</h2>
-                <div class="star">  
+      <section class="today">
+        <h2 class="headline_today">Today, 01.02.2021</h2>
 
-                </div> <!--/ star-->
-            </div> <!--/today_rating mg-bt-->
+        <div class="today_rating mg-bt">
+          <h2 class="headline_rating">Rating:</h2>
+          <div class="star"></div>
+          <!--/ star-->
+        </div>
+        <!--/today_rating mg-bt-->
 
-            <div class="today_comprehension mg-bt">
-                <h2 class="headline_comprehension">Comprehension:</h2>
-                <div class="retancle">
-    
-                </div> <!--/retancle-->
-            </div> <!--/today_comprehension mg-bt-->
+        <div class="today_comprehension mg-bt">
+          <h2 class="headline_comprehension">Comprehension:</h2>
+          <div class="retancle"></div>
+          <!--/retancle-->
+        </div>
+        <!--/today_comprehension mg-bt-->
 
-                <div class="mg-bt">
-                   <h2 class="motto">Motto:</h2>
-                   <div class="today_motto">|</div>
-                </div>
-                <div class="mg-bt">
-                   <h2 class="notes">Notes:</h2> 
-                   <div class="today_notes">|</div>
-                </div>
+        <div class="mg-bt">
+          <h2 class="motto">Motto:</h2>
+          <input class="today_motto" />
+        </div>
+        <div class="mg-bt">
+          <h2 class="notes">Notes:</h2>
+          <input class="today_notes" />
+        </div>
+      </section>
+      <!--/today-->
 
-        </section> <!--/today-->
+      <div class="journal__new--button">
+        <input class="button_cancel" type="button" value="Cancel" />
+        <button class="button_save">
+          Save
 
-    <div class="journal__new--button">
-       
-        <input class="button_cancel" type="button" value="Cancel">
-        <button class="button_save">Save
-            
-            <svg id="bold" enable-background="new 0 0 24 24" height="11.2" viewBox="0 0 24 24" width="14.63" fill="#fff" xmlns="http://www.w3.org/2000/svg"><g><path d="m9.707 19.121c-.187.188-.442.293-.707.293s-.52-.105-.707-.293l-5.646-5.647c-.586-.586-.586-1.536 0-2.121l.707-.707c.586-.586 1.535-.586 2.121 0l3.525 3.525 9.525-9.525c.586-.586 1.536-.586 2.121 0l.707.707c.586.586.586 1.536 0 2.121z"/></g></svg>
-
+          <svg
+            id="bold"
+            enable-background="new 0 0 24 24"
+            height="11.2"
+            viewBox="0 0 24 24"
+            width="14.63"
+            fill="#fff"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g>
+              <path
+                d="m9.707 19.121c-.187.188-.442.293-.707.293s-.52-.105-.707-.293l-5.646-5.647c-.586-.586-.586-1.536 0-2.121l.707-.707c.586-.586 1.535-.586 2.121 0l3.525 3.525 9.525-9.525c.586-.586 1.536-.586 2.121 0l.707.707c.586.586.586 1.536 0 2.121z"
+              />
+            </g>
+          </svg>
         </button>
-       
-    </div>
-</main>
+      </div>
+    </main>
     <footer>
-        <nav>
-            <a href="index.html"><img src="images/DashboardIcon.svg" alt=""></a>
-            <a href="buddy.html"><img src="images/BuddyIcon.svg" alt=""></a>
-            <a href="team.html"><img src="images/TeamIcon.svg" alt=""></a>
-            <a href="energy.html"><img src="images/EnergyIcon.svg" alt=""></a>
-            <a href="journal.html"><img src="images/JournalIcon.svg" alt="journal" class="active"></a>
-        </nav>
+      <nav>
+        <a href="index.html"><img src="images/DashboardIcon.svg" alt="" /></a>
+        <a href="buddy.html"><img src="images/BuddyIcon.svg" alt="" /></a>
+        <a href="team.html"><img src="images/TeamIcon.svg" alt="" /></a>
+        <a href="energy.html"><img src="images/EnergyIcon.svg" alt="" /></a>
+        <a href="journal.html"
+          ><img src="images/JournalIcon.svg" alt="journal" class="active"
+        /></a>
+      </nav>
     </footer>
-</body>
+  </body>
 </html>
