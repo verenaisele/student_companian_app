@@ -15,36 +15,18 @@ button.addEventListener("click", () => {
   postRequest.motto = mottoInput.value;
   postRequest.notes = notesInput.value;
   console.log(postRequest);
+  postToServer(
+    "https://muc-2020-w1-student-api.vercel.app/api/journals",
+    postRequest
+  );
 });
 
-
-fetch('https://muc-2020-w1-student-api.vercel.app/api/journals', {
-  method: 'POST',
-  headers: { 'Content-Type': 'application/json' },
-  body: JSON.stringify(postRequest),
-})
-  .then((res) => res.json())
-  .then((data) => console.log(data))
-
-
-/* post('https://muc-2020-w1-student-api.vercel.app/api/journals', postRequest)
- .then(todo => {
-   renderTodo(todo)
- })
- .catch((err) => {
-   console.log(err.message)
- })
-}
-*/
-
-
-function post(url, data) {
+function postToServer(url, data) {
   return fetch(url, {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify(data)
-  })
-    .then(res => res.json())
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify(data),
+  }).then((res) => res.json());
 }
 
 //1. Post
